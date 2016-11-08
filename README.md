@@ -31,25 +31,35 @@ The time series connection can be verified quickly using the predix starter kit 
 ##Time Series Query
 The following is a sample query to retieve the data using one of the tags 
 
-`
-{  
 
-   "start":"1d-ago",
-   
-   "tags":[  
+{  
+  
+  "start":"1d-ago",
+  
+   "tags":[ 
    
       {  
+      
          "name":"Engine Oil Pressure",
+         
          "order":"desc",
+         
          "filters":{  
+         
             "attributes":{  
+            
                "AssetUri":"/engine/2afbd553-8d7f-4c59-8346-d93a92b177ba"
+               
             }
+            
          }
+         
       }
+      
    ]
+   
 }
-`
+
 
 The following are the available tags in time series for the query:
 * Engine Frequency
