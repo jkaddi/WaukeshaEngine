@@ -30,10 +30,14 @@ The time series connection can be verified quickly using the predix starter kit 
 
 ##Time Series Query
 The following is a sample query to retieve the data using one of the tags 
+
 `
 {  
+
    "start":"1d-ago",
+   
    "tags":[  
+   
       {  
          "name":"Engine Oil Pressure",
          "order":"desc",
@@ -46,6 +50,7 @@ The following is a sample query to retieve the data using one of the tags
    ]
 }
 `
+
 The following are the available tags in time series for the query:
 * Engine Frequency
 * Engine Hours
