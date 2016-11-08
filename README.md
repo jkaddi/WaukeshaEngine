@@ -19,8 +19,8 @@ Time series data can be accessed programatically using Time Series Client Librar
 The following UAA and Time Series details are needed for the data retrieval.
 
 * **UAA URL**: https://98d4176d-a268-405b-a461-3f9944793a31.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token
-* **Client Name**: app_client_id
-* **Client Password**: secret
+* **Client Name**: _To be handed out during the hackathon_
+* **Client Password**: _To be handed out during the hackathon_
 * **TimeSeries Query URL**: https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/
   * **Query tags**: https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/tags
   * **Query datapoints**: https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/datapoints
